@@ -15,7 +15,7 @@ var lessScore = 0;
 function KBC(question,answer){
     console.log("                   ");
     console.log(chalk.green( question));
-    console.log("-------------");
+    console.log("------------");
     var userAnswer=readlineSync.question(chalk.grey("Enter your answer: "));
     console.log("You entered " + userAnswer);
     if (userAnswer === answer){
